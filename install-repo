@@ -1,0 +1,7 @@
+---
+
+- name: Add custom repo
+  hosts: all
+  gather_facts: False
+  become: true
+  vars: 
